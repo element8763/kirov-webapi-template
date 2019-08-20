@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "FatTiger",
+  "author": "kirov-opensource",
   "classifications": [ "Web", "WebAPI", "Three-Tier Architecture" ],
-  "identity": "TTA.WebAPI.Template",
-  "name": "Clean Three-Tier Architecture WebAPI",
-  "shortName": "tta-webapi",
+  "identity": "Kirov.WebAPI.Template",
+  "name": "Kirov Clean Three-Tier Architecture WebAPI",
+  "shortName": "kirov-webapi",
   "sourceName": "WebAPI.Template",
   "tags": {
     "language": "C#",

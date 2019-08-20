@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "FatTiger",
+  "author": "kirov-opensource",
   "classifications": [ "Web", "DAL", "Three-Tier Architecture" ],
-  "identity": "TTA.DAL.Template",
-  "name": "Clean Three-Tier Architecture DAL",
-  "shortName": "tta-dal",
+  "identity": "Kirov.DAL.Template",
+  "name": "Kirov Clean Three-Tier Architecture DAL",
+  "shortName": "kirov-dal",
   "sourceName": "DAL.Template",
   "preferNameDirectory": true,
   "tags": {

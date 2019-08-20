@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "FatTiger",
+  "author": "kirov-opensource",
   "classifications": [ "Web", "Extension", "Three-Tier Architecture" ],
-  "identity": "TTA.Extension.Template",
-  "name": "Clean Three-Tier Architecture Extension",
-  "shortName": "tta-extension",
+  "identity": "Kirov.Extension.Template",
+  "name": "Kirov Clean Three-Tier Architecture Extension",
+  "shortName": "kirov-extension",
   "sourceName": "Extension.Template",
   "preferNameDirectory": true,
   "tags": {

@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "FatTiger",
+  "author": "kirov-opensource",
   "classifications": [ "Web", "BLL", "Three-Tier Architecture" ],
-  "identity": "TTA.BLL.Template",
-  "name": "Clean Three-Tier Architecture BLL",
-  "shortName": "tta-bll",
+  "identity": "Kirov.BLL.Template",
+  "name": "Kirov Clean Three-Tier Architecture BLL",
+  "shortName": "kirov-bll",
   "sourceName": "BLL.Template",
   "preferNameDirectory": true,
   "tags": {
