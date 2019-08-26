@@ -272,11 +272,9 @@ dist/
 typescript
 tempkey.rsa
 *.map
-*/Properties
 package-lock.json
 *.csv
 flyway.conf
 flyway.*.conf
-launchSettings.json
 appsettings.*.json
 

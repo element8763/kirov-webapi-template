@@ -57,12 +57,12 @@ namespace WebAPI.Template
             {
                 options.OperationFilter<AuthorizationFilter>();
                 options.DescribeAllEnumsAsStrings();
-                options.SwaggerDoc("v1", new Info { Title = "WebAPI Template API", Version = "v1" });
+                options.SwaggerDoc("v1", new Info { Title = "Kirov.Template.WebAPI API", Version = "v1" });
                 var basePath = PlatformServices.Default.Application.ApplicationBasePath;
-                var webAppXmlPath = Path.Combine(basePath, "WebAPI.Template.xml");
-                var bllXmlPath = Path.Combine(basePath, "Template.xml");
-                var dalXmlPath = Path.Combine(basePath, "Template.xml");
-                var extensionsXmlPath = Path.Combine(basePath, "Extensions.Template.xml");
+                var webAppXmlPath = Path.Combine(basePath, "Kirov.Template.WebAPI.xml");
+                var bllXmlPath = Path.Combine(basePath, "Kirov.Template.BLL.xml");
+                var dalXmlPath = Path.Combine(basePath, "Kirov.Template.DAL.xml");
+                var extensionsXmlPath = Path.Combine(basePath, "Kirov.Template.Extension.xml");
                 options.IncludeXmlComments(webAppXmlPath);
                 options.IncludeXmlComments(bllXmlPath);
                 options.IncludeXmlComments(dalXmlPath);
@@ -83,7 +83,7 @@ namespace WebAPI.Template
             services.AddSingleton(item => new IdWorker(1, Configuration.GetValue<int>("ServerNodeNo")));
             services.AddSingleton<IControllerActivator, NAutowiredControllerActivator>();
             //use auto dependency injection
-            services.AddAutoDependencyInjection(new List<string> { "WebAPI.Template", "BLL.Template", "DAL.Template" });
+            services.AddAutoDependencyInjection(new List<string> { "Kirov.Template.WebAPI", "Kirov.Template.BLL", "Kirov.Template.DAL" });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -102,7 +102,7 @@ namespace WebAPI.Template
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI Template v1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Kirov.Template.WebAPI v1");
             });
             app.UseMvc();
         }

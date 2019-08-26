@@ -3,9 +3,9 @@
   "author": "kirov-opensource",
   "classifications": [ "Web", "WebAPI", "Three-Tier Architecture" ],
   "identity": "Kirov.WebAPI.Template",
-  "name": "Kirov Clean Three-Tier Architecture WebAPI",
+  "name": "Kirov WebAPI",
   "shortName": "kirov-webapi",
-  "sourceName": "WebAPI.Template",
+  "sourceName": "Kirov.Template",
   "tags": {
     "language": "C#",
     "type": "project"
@@ -25,10 +25,7 @@
             "**/LICENSE",
             "**/*.md",
             "**/.vs/**",
-            "**/.gitignore",
-            "**/BLL.Template/**",
-            "**/DAL.Template/**",
-            "**/Extension.Template/**"
+            "**/.gitignore"
           ]
         }
       ]

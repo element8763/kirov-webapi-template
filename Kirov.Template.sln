@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI.Template", "WebAPI.Template\WebAPI.Template.csproj", "{B39D151D-E9E4-45C6-8B43-9FF2147E7DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirov.Template.WebAPI", "Kirov.Template.WebAPI\Kirov.Template.WebAPI.csproj", "{B39D151D-E9E4-45C6-8B43-9FF2147E7DA6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL.Template", "BLL.Template\BLL.Template.csproj", "{D31AE02B-B312-4A08-9424-F0F9953A35F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirov.Template.BLL", "Kirov.Template.BLL\Kirov.Template.BLL.csproj", "{D31AE02B-B312-4A08-9424-F0F9953A35F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL.Template", "DAL.Template\DAL.Template.csproj", "{60C3A9A0-B07B-40BF-97C2-3FCAC4D5DDB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirov.Template.DAL", "Kirov.Template.DAL\Kirov.Template.DAL.csproj", "{60C3A9A0-B07B-40BF-97C2-3FCAC4D5DDB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extension.Template", "Extension.Template\Extension.Template.csproj", "{D7861AF9-E7F9-4029-9C1A-4532C37A8B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kirov.Template.Extension", "Kirov.Template.Extension\Kirov.Template.Extension.csproj", "{D7861AF9-E7F9-4029-9C1A-4532C37A8B32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
