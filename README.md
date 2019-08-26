@@ -8,10 +8,10 @@
 * 项目根目录执行`dotnet new -i ./DAL.Template`安装`DAL`模板.
 * 项目根目录执行`dotnet new -i ./Extension.Template`安装`Extension`模板.
 ### 使用模板
-* `dotnet new tta-webapi -n projectname`生成`sln`和`webapi`项目.
-* `dotnet new tta-bll -n projectname`生成`BLL`层项目.
-* `dotnet new tta-dal -n projectname`生成`DAL`层项目.
-* `dotnet new tta-extension -n projectname`生成`Extension`项目.
+* `dotnet new kirov-webapi -n projectname`生成`sln`和`webapi`项目.
+* `dotnet new kirov-bll -n projectname`生成`BLL`层项目.
+* `dotnet new kirov-dal -n projectname`生成`DAL`层项目.
+* `dotnet new kirov-extension -n projectname`生成`Extension`项目.
 
 ## 为何不使用自带的项目模板
 * 使用自带的webapi模板构造项目,仅仅构造出一个webapi项目.
