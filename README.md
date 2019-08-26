@@ -10,3 +10,23 @@
 * 项目根目录执行`dotnet new -i .`安装`kirov-webapi`模板.
 ### 使用模板
 * `dotnet new kirov-webapi -n projectname`生成`kirov-webapi`项目
+
+## 产物目录结构
+```sh
+.
+├─Kirov.Test.BLL
+│  ├─Models                         #业务层模型，对外展示的模型
+│  └─Services                       #服务层，每个模块对应一个Service
+├─Kirov.Test.DAL
+│  ├─Entities                       #数据库模型映射都存放于此
+│  └─Repositories                   #每个模块对应一个Repository
+├─Kirov.Test.Extension
+│  └─Exceptions                     #通用的异常类
+├─Kirov.Test.WebAPI
+│  ├─Controllers                    #控制器文件夹
+│  ├─Extensions                     #仅限WebAPI项目使用的拓展
+│  ├─Filter                         #过滤器
+│  └─Model                          #仅限WebAPI使用的模型
+└─migrations
+    └─sql                           #Database First风格的数据库migration语句
+```
