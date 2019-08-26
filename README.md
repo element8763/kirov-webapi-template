@@ -12,9 +12,15 @@
 
 ## 如何使用
 ### 安装模板
+#### 从`nuget`安装
+* `dotnet new -i kirov-webapi` 从`nuget`安装`kirov-webapi`模板.
+
+#### 从源构建
 * 项目根目录执行`dotnet new -i .`安装`kirov-webapi`模板.
+
 ### 使用模板
 * `dotnet new kirov-webapi -n projectname`生成`kirov-webapi`项目
+
 
 ## 产物目录结构
 ```sh
