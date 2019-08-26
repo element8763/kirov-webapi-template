@@ -1,18 +1,12 @@
 # netcore webapi template
 用于netcore项目的webapi模板 可用dotnet new进行项目创建
 
+## 理念
+在我们使用一套熟悉的框架后，创建新项目时很容易就将原有的项目复制过来改一改接着用，这种方式有好处就是你的一些工具类和拓展类可以持续的`添砖加瓦`，里面会有越来越多的你顺手的方法，还有些底层的东西都是相同的，你是不愿意重新再弄一套。
+但是这个方式有个坏处就是很容易会赋值过来很多没用的,甚至有业务关联性的代码,这是我们所不需要的,时间长了从A项目到B项目到C项目,这个框架会变得越来越不像当初的样子,而是参杂着某些业务相关性的代码或者方法。解决此问题有两个方向，一是每次都重新造轮子，从零开始构造整个架构，另一个方向则是创建一个基本的业务无关的模板，新的项目使用时，使用一个CLI命令即可完成框架的构建，另外平时新增加的工具方法以及拓展类则可以同步修改此项目。第一个方向太傻太累且每次构建的项目都可能不同，也没法持续积累你的生产力工具方法。因此我们创建了这个项目。
+
 ## 如何使用
 ### 安装模板
-* 项目根目录执行`dotnet new -i .`安装`WebAPI`模板.
-* 项目根目录执行`dotnet new -i ./BLL.Template`安装`BLL`模板.
-* 项目根目录执行`dotnet new -i ./DAL.Template`安装`DAL`模板.
-* 项目根目录执行`dotnet new -i ./Extension.Template`安装`Extension`模板.
+* 项目根目录执行`dotnet new -i .`安装`kirov-webapi`模板.
 ### 使用模板
-* `dotnet new kirov-webapi -n projectname`生成`sln`和`webapi`项目.
-* `dotnet new kirov-bll -n projectname`生成`BLL`层项目.
-* `dotnet new kirov-dal -n projectname`生成`DAL`层项目.
-* `dotnet new kirov-extension -n projectname`生成`Extension`项目.
-
-## 为何不使用自带的项目模板
-* 使用自带的webapi模板构造项目,仅仅构造出一个webapi项目.
-* 实际情况我们还需要引入很多nuget包,引入自己的一些工具类等.用项目模板即可统一生成,而不需要从以前的项目copy过来.
+* `dotnet new kirov-webapi -n projectname`生成`kirov-webapi`项目
