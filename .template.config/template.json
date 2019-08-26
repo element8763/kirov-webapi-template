@@ -28,7 +28,9 @@
             "**/.gitignore",
             "**/*.nuspec",
             "[\\[]Content_Types[\\]].xml",
-            "_rels/**"
+            "_rels/**",
+            "*.p7s",
+            "package/**"
           ]
         }
       ]
