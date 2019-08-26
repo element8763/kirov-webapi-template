@@ -19,8 +19,10 @@
 * 项目根目录执行`dotnet new -i .`安装`kirov-webapi`模板.
 
 ### 使用模板
-* `dotnet new kirov-webapi -n projectname`生成`kirov-webapi`项目
+* `dotnet new kirov-webapi -n projectname`生成`kirov-webapi`项目.
 
+### 卸载模板
+* `dotnet new -u kirov-webapi`卸载`kirov-webapi`模板.
 
 ## 产物目录结构
 ```sh
