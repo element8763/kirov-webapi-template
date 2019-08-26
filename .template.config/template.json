@@ -25,7 +25,10 @@
             "**/LICENSE",
             "**/*.md",
             "**/.vs/**",
-            "**/.gitignore"
+            "**/.gitignore",
+            "**/*.nuspec",
+            "[\\[]Content_Types[\\]].xml",
+            "_rels/**"
           ]
         }
       ]
