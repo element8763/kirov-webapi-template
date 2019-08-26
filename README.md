@@ -1,4 +1,9 @@
 # kirov webapi template
+[![NuGet](https://img.shields.io/nuget/v/kirov-webapi.svg?style=flat-square&logo=nuget)](https://www.nuget.org/packages/kirov-webapi)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/kirov-opensource/kirov-webapi-template.svg?style=flat-square&logo=github)
+[![GitHub issues](https://img.shields.io/github/issues/kirov-opensource/kirov-webapi-template.svg?style=flat-square&logo=github)](https://github.com/kirov-opensource/kirov-webapi-template/issues)
+![GitHub top language](https://img.shields.io/github/languages/top/kirov-opensource/kirov-webapi-template?style=flat-square&logo=github)
+
 用于netcore项目的webapi模板 可用dotnet new进行项目创建
 
 ## 理念
