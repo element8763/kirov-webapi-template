@@ -14,15 +14,15 @@
 ## 产物目录结构
 ```sh
 .
-├─Kirov.Test.BLL
+├─Project.BLL
 │  ├─Models                         #业务层模型，对外展示的模型
 │  └─Services                       #服务层，每个模块对应一个Service
-├─Kirov.Test.DAL
+├─Project.DAL
 │  ├─Entities                       #数据库模型映射都存放于此
 │  └─Repositories                   #每个模块对应一个Repository
-├─Kirov.Test.Extension
+├─Project.Extension
 │  └─Exceptions                     #通用的异常类
-├─Kirov.Test.WebAPI
+├─Project.WebAPI
 │  ├─Controllers                    #控制器文件夹
 │  ├─Extensions                     #仅限WebAPI项目使用的拓展
 │  ├─Filter                         #过滤器
